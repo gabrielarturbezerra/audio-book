@@ -11,7 +11,7 @@ body {
 #informacoes-faixa,
 #container-botoes {
   border: 0.5px #fff solid;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.7);
   border-radius: 20px;
   padding: 10px 0px;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .btn-menu {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 0.5px #fff solid;
   border-radius: 20px;
   font-size: 30px;
@@ -110,6 +110,7 @@ button {
 #play-pause {
   font-size: 3rem;
   transition: transform 0.3s ease;
+  background-color: transparent;
 }
 
 #anterior:hover,
